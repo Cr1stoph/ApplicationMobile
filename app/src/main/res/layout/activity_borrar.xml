@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundcolor"
+    tools:context=".ui.view.ActivityBorrar">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ELIMINAR"
+            android:fontFamily="casual"
+            android:textSize="60sp"
+            android:layout_margin="36dp"
+            android:layout_marginLeft="25dp"
+            android:textAlignment="center"
+            android:textColor="#1E1D14"/>
+
+
+            <EditText
+                android:id="@+id/txtId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="250dp"
+                android:ems="10"
+                android:hint="Id"
+                android:inputType="number"
+                android:textColorHint="#1E1D14" />
+
+
+        <!--
+            BUTTONS
+        -->
+
+        <Button
+            android:id="@+id/btnBorrar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/btn_eliminar"
+            app:backgroundTint="@null"
+            android:background="@drawable/btncolor"
+            android:textColor="#1E1D14"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/btnRegresar"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/btncolor"
+            android:text="@string/btn_regresar"
+            android:textColor="#1E1D14"
+            app:backgroundTint="@null" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

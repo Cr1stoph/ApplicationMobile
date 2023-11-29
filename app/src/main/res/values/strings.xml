@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">AplicacionMovilPelicula </string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="release_data">Fecha de lanzamiento:</string>
+    <string name="popularity">Popularidad:</string>
+    <string name="genders">Géneros:</string>
+    <string name="overview">Descripción:</string>
+    <string name="text_empty">- - -</string>
+    <string name="budget">Presupuesto:</string>
+    <string name="runtime">Duración de la película:</string>
+    <string name="runtimeLink">%s min.</string>
+
+    <!--   ADICIONALES -->
+    <string name="txt_name">nombre</string>
+    <string name="txt_id">id</string>
+    <string name="txt_titulo">titulo</string>
+    <string name="text_año">año</string>
+    <string name="txt_imagen">imagen</string>
+    <string name="txt_descripcion">descripción</string>
+    <string name="btn_regresar">REGRESAR</string>
+    <string name="btn_actualizar">ACTUALIZAR</string>
+    <string name="btn_eliminar">ELIMINAR</string>
+    <string name="btn_verPelicula">PELICULAS</string>
+    <string name="btn_insertar">NUEVA PELICULA</string>
+    <string name="btn_borrar">BORRAR</string>
+    <string name="btn_gps">GPS</string>
+    <string name="btn_guardar">GUARDAR</string>
+    <string name="btn_administrar">ADMINISTRAR</string>
+    <string name="Title_peliculas">Peliculas</string>
+
+
+</resources>
